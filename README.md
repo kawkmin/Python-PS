@@ -43,3 +43,6 @@ string.find(값) string 버전
 
 string.isdigit() 특수 표현 가능(⅔) 숫자인지 확인
 string.isdecimal() 특수 표현 불가능, 0을 포함한 양수
+
+list.remove(값) list에서 값인 원소 제거(앞에서부터 1개만)
+list.pop(index값) list의 인덱스값에 위치한 원소 제거
