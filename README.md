@@ -26,6 +26,9 @@ list1.extend(list2) list 추가
 bin(10진수)= '0b'+2진수 반환 -> bin(10진수)[2:] 로 2진수만 반환
 비트 연산자 AND='&' OR='|' XOR='^' NOT='~' 가 있다
 
+from collections import defaultdict
+d = defaultdict(int) 0으로 초기화하는 dict
+
 # 자주 까먹는 python 기능,함수
 
 .count(값) 값이 몇 개 있는지 반환
