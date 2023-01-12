@@ -29,6 +29,9 @@ bin(10진수)= '0b'+2진수 반환 -> bin(10진수)[2:] 로 2진수만 반환
 from collections import defaultdict
 d = defaultdict(int) 0으로 초기화하는 dict
 
+return A and B - 둘다 참= return B / 둘 다 거짓=return A / 하나만 참= reutnr 거짓
+return A or B - 반대
+
 # 자주 까먹는 python 기능,함수
 
 .count(값) 값이 몇 개 있는지 반환
