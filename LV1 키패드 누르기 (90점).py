@@ -15,7 +15,7 @@ def solution(numbers, hand):
                 i = 11
             a = abs(i - L_loc)
             b = abs(i - R_loc)
-            x = (a // 3) + (a % 3)  # 이부분 못했음
+            x = (a // 3) + (a % 3)  # 이부분 못했음 3이상의 차이= 1의 차이
             y = (b // 3) + (b % 3)
             if x > y:
                 answer += "R"
