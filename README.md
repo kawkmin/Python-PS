@@ -18,7 +18,7 @@ list1.extend(list2) list 추가
 
 ## 기타
 
-**2 는 제곱 , **.5는 제곱근
+**2는 제곱, **.5는 제곱근
 
 / float나누기
 // int나누기
@@ -38,8 +38,9 @@ return A or B - 반대
 
 sum(list) 리스트 원소의 총 합을 반환
 
-if list in 값: 값이 list에 있거나 없을 때의 조건문
-if list not in 값:
+if 값 in list: 값이 list에 있거나 없을 때의 조건문
+if 값 not in list:
+if 값 not in dict.keys(): dict도 가능
 
 list.index(값) list 버전 값의 위치 반환 (없으면 -1)
 string.find(값) string 버전
