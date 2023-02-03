@@ -31,6 +31,8 @@ bin(10진수)= '0b'+2진수 반환 -> bin(10진수)[2:] 로 2진수만 반환
 from collections import defaultdict
 d = defaultdict(int) 0으로 초기화하는 dict
 
+dic={x:0 for x in list } 로 초기화 가능
+
 return A and B - 둘다 참 -> B를 리턴 / 둘 다 거짓 -> A를 리턴 / 하나만 참 -> 거짓을 리턴
 return A or B - 반대
 대부분 return A or B 로 하나만 참일 때 참을 리턴하는 것을 씀
@@ -57,3 +59,5 @@ string.isdecimal() 특수 표현 불가능, 0을 포함한 양수
 
 list.remove(값) list에서 값인 원소 제거(앞에서부터 1개만)
 list.pop(index값) list의 인덱스값에 위치한 원소 제거
+
+a=[0]\*100 으로 배열 초기화 처럼 사용 가능
