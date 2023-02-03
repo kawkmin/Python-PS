@@ -61,3 +61,6 @@ list.remove(값) list에서 값인 원소 제거(앞에서부터 1개만)
 list.pop(index값) list의 인덱스값에 위치한 원소 제거
 
 a=[0]\*100 으로 배열 초기화 처럼 사용 가능
+
+list comprehension에 else를 추가
+['yes' if x in store else 'no' for x in customer]
