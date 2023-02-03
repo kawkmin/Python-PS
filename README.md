@@ -35,9 +35,13 @@ return A and B - 둘다 참 -> B를 리턴 / 둘 다 거짓 -> A를 리턴 / 하
 return A or B - 반대
 대부분 return A or B 로 하나만 참일 때 참을 리턴하는 것을 씀
 
+ord = 문자를 숫자로
+chr = 숫자를 문자로
+
 # 자주 까먹는 python 기능,함수
 
 .count(값) 값이 몇 개 있는지 반환
+"asasas".count("as") -> 3
 
 sum(list) 리스트 원소의 총 합을 반환
 
