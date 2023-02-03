@@ -14,6 +14,8 @@ for x,y in zip(list1,list2): 2개 이상의 데이터를 같이 매핑한다
 sorted(list,key=lamda x: 정렬 기준) 정렬 커스텀. 튜플로 여러 기준 가능
 sorted(list,key=lamda x: (기준1,기준2))
 
+sorted(String) split처럼 List로 반환함
+
 list1.extend(list2) list 추가
 
 ## 기타
@@ -29,8 +31,9 @@ bin(10진수)= '0b'+2진수 반환 -> bin(10진수)[2:] 로 2진수만 반환
 from collections import defaultdict
 d = defaultdict(int) 0으로 초기화하는 dict
 
-return A and B - 둘다 참= return B / 둘 다 거짓=return A / 하나만 참= reutnr 거짓
+return A and B - 둘다 참 -> B를 리턴 / 둘 다 거짓 -> A를 리턴 / 하나만 참 -> 거짓을 리턴
 return A or B - 반대
+대부분 return A or B 로 하나만 참일 때 참을 리턴하는 것을 씀
 
 # 자주 까먹는 python 기능,함수
 
