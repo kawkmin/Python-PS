@@ -64,3 +64,7 @@ a=[0]\*100 으로 배열 초기화 처럼 사용 가능
 
 list comprehension에 else를 추가
 ['yes' if x in store else 'no' for x in customer]
+
+문자열에서 remove 없으니, replace 또는 슬라이스로 지우자
+
+비교할 때 string in ['123','124'] in 사용 가능
