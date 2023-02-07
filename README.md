@@ -68,3 +68,13 @@ list comprehension에 else를 추가
 문자열에서 remove 없으니, replace 또는 슬라이스로 지우자
 
 비교할 때 string in ['123','124'] in 사용 가능
+
+dict 값 list로 + 정렬
+dic=defaultdict(list)
+dic[genres[i]]=[dic.get(genres[i],[0,0])[0]+plays[i],i]
+dic=sorted(dic.items(),key=lambda x:x[1][0],reverse=True)
+
+dict foreach할 때
+for i in dict:
+i[0]//key
+i[1]//values 가 된다
