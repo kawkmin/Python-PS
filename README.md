@@ -29,6 +29,7 @@ string.isdecimal() 특수 표현 불가능, 0을 포함한 양수
 비교할 때 string in ['123','124'] in 사용 가능
 
 # dict
+
 dict 값 list로 + 정렬  
 dic=defaultdict(list)  
 dic[genres[i]]=[dic.get(genres[i],[0,0])[0]+plays[i],i]
@@ -38,7 +39,6 @@ dict foreach할 때
 for i in dict:  
 i[0]//key  
 i[1]//values 가 된다
-
 
 # 기타
 
@@ -54,3 +54,6 @@ a=[0 for i in range(100)] 으로 배열 초기화 처럼 사용 가능
 
 list comprehension에 else를 추가  
 ['yes' if x in store else 'no' for x in customer]
+
+int형변환은 자동으로 앞의 0을 지워준다
+a = "001" int(a)==1
