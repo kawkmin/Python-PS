@@ -57,3 +57,6 @@ list comprehension에 else를 추가
 
 int형변환은 자동으로 앞의 0을 지워준다
 a = "001" int(a)==1
+
+리스트 중 하나라도 True면, return True
+any([])
