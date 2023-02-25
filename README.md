@@ -35,6 +35,10 @@ dic=defaultdict(list)
 dic[genres[i]]=[dic.get(genres[i],[0,0])[0]+plays[i],i]
 dic=sorted(dic.items(),key=lambda x:x[1][0],reverse=True)
 
+삽입을 zip으로 사용가능
+dic[a] = b
+dic(zip(a,b))
+
 dict foreach할 때  
 for i in dict:  
 i[0]//key  
@@ -63,3 +67,6 @@ any([])
 
 a와 b swap하는 법
 a,b=b,a
+
+값을 찾을 때, 쓰는 x in [1,2,3]는 속도가 매우느리다
+-> set()으로 바꿔주면 매우 빨라짐
