@@ -1,6 +1,7 @@
 # list, string
 
 ''.join(list) list를 문자열로 나타내기 (list는 문자열이여만 한다)
+"".join(map(str, li)) 로 int List도 가능
 
 list.index(값) list 버전 값의 위치 반환 (없으면 오류)
 string.find(값) string 버전 (없으면 -1)
