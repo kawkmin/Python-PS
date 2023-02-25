@@ -14,8 +14,10 @@ li = list(set(li)) list의 중복 제거
 for i,x in enumerate(list): index와 같이 매핑한다  
 for x,y in zip(list1,list2): 2개 이상의 데이터를 같이 매핑한다
 
-.rjust(크기,초기화할 값) 부족한 크기만큼 초기화시켜줌
-.zfill(크기) 부족한 크기만큼 0으로 초기화시켜줌 (str만 됨,앞에서부터, sorted처럼 반환함 )
+부족한 크기만큼 채우기(str만 됨,sorted처럼 반환함 )
+.rjust(크기,초기화할 값) 부족한 크기만큼 초기화시켜줌(앞에서부터)
+.zfill(크기) 부족한 크기만큼 0으로 초기화시켜줌 (앞에서부터)
+.ljust(크기,초기화할 값) 부족한 크기만큼 초기화시켜줌(뒤에서부터)
 
 sorted(list,key=lamda x: 정렬 기준) 정렬 커스텀. 튜플로 여러 기준 가능  
 sorted(list,key=lamda x: (기준1,기준2))
