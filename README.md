@@ -30,13 +30,14 @@ string.isdecimal() 특수 표현 불가능, 0을 포함한 양수
 
 # dict
 
-dict 값 list로 + 정렬  
-dic=defaultdict(list)  
-dic[genres[i]]=[dic.get(genres[i],[0,0])[0]+plays[i],i]
-dic=sorted(dic.items(),key=lambda x:x[1][0],reverse=True)
+정렬
+dic=sorted(dic, key=lambda x: x[1]) = value의 값으로 정렬 후, items의 List로 반환
+dic=sorted(dic, key=lambda x: x[0]) = key의 값으로 정렬 후, items의 List로 반환
+dic=sorted(dic.items(),key=lambda x: x[1]) = value의 값으로 정렬 후, dict형태로 반환 !!
 
-삽입을 zip으로 사용가능
-dic[a] = b
+리스트 삽입을 zip으로 사용가능
+a=['a','b','c']
+b=[1,2,3]
 dic(zip(a,b))
 
 dict foreach할 때  
