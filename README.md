@@ -8,6 +8,8 @@ string.find(값) string 버전 (없으면 -1)
 list.remove(값) list에서 값인 원소 제거(앞에서부터 1개만)  
 list.pop(index값) list의 인덱스값에 위치한 원소 제거
 
+li = list(set(li)) list의 중복 제거
+
 for i,x in enumerate(list): index와 같이 매핑한다  
 for x,y in zip(list1,list2): 2개 이상의 데이터를 같이 매핑한다
 
