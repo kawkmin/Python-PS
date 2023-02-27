@@ -78,3 +78,5 @@ a,b=b,a
 -> set()으로 바꿔주면 매우 빨라짐
 
 deque는 .pop(위치)가 없고 popleft등 이 있다
+
+import copy의 copy.deepcopy(복사할 리스트)로 깊은 복사 가능
