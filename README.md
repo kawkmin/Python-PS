@@ -70,6 +70,7 @@ a = "001" int(a)==1
 
 리스트 중 하나라도 True면, return True
 any([])
+if all(구현): all안에 반복문들이 모두 True 일때
 
 a와 b swap하는 법
 a,b=b,a
