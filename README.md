@@ -38,7 +38,7 @@ string.isdecimal() 특수 표현 불가능, 0을 포함한 양수
 정렬
 dic=sorted(dic, key=lambda x: x[1]) = value의 값으로 정렬 후, items의 List로 반환
 dic=sorted(dic, key=lambda x: x[0]) = key의 값으로 정렬 후, items의 List로 반환
-dic=sorted(dic.items(),key=lambda x: x[1]) = value의 값으로 정렬 후, dict형태로 반환 !!
+dic=sorted(dic.items(),key=lambda x: x[1]) = value의 값으로 정렬 후, List tuple형태로 반환 !!
 
 리스트 삽입을 zip으로 사용가능
 a=['a','b','c']
