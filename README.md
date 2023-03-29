@@ -46,7 +46,7 @@ b=[1,2,3]
 dic(zip(a,b))
 
 dict foreach할 때  
-for i in dict:  
+for i in dict.items():  
 i[0]//key  
 i[1]//values 가 된다
 
